@@ -1,0 +1,39 @@
+body {
+    background-image: url(bg.webp);
+    color: hsl(0, 100%, 69%);
+    display: flex;
+    flex-direction: column;
+    padding: 2em;
+    margin: 0 auto;
+    text-align: center;
+}
+a {
+    padding: 1em;
+    font-size: 1.4em;
+    color: rgb(255, 255, 255);
+    text-decoration: none;
+    
+}
+a:hover {
+    color: rgb(0, 255, 13);
+    animation-name: example;
+    animation-duration: 9s;
+}
+div {
+    background-color: hsl(236, 100%, 49%);
+    margin: 1em;
+}
+img {
+    width: 50vw; 
+    margin: 0 auto;
+}
+h1 {
+    margin: 10px 4px 6px 8px;
+}
+
+@keyframes example {
+    0%   {background-color: red;}
+    25%  {background-color: yellow;}
+    50%  {background-color: rgba(0, 0, 255, 0);}
+    100% {background-color: rgb(0, 255, 0);}
+  }
